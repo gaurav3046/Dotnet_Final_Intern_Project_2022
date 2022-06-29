@@ -1,0 +1,23 @@
+.profile-button {
+    background: grey;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: black;
+}
+
+.profile-button:focus {
+    background: grey;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: grey;
+    box-shadow: none
+}
+
+.labels {
+    font-size: 11px
+}

@@ -1,0 +1,87 @@
+.SignUp-Container,.Mess-Container {
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .SignUp-SubContainer ,.Mess-SubContainer{
+        height: 80%;
+        width: 450px;
+        border: 0.5px solid lightgray;
+        border-radius: 10px;
+
+        .Header {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-family: 'Roboto';
+            font-size: 25px;
+            font-weight: 500;
+            color: grey;
+            
+        }
+
+        .Body {
+            height: 70%;
+            width: 100%;
+            // border: 0.5px solid lightgray;
+            // box-sizing: border-box;
+
+            .form{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .TextField{
+                    margin-bottom: 2px;
+                    width: 300px;
+                    margin: 20px;
+                }
+
+                .Roles{
+                    margin-top: 30px;
+                    display: block;
+                    width: 100%;
+                    .RoleValue{
+                        width: 100px;
+                    }
+                }
+                .Roles2{
+                    margin-top: 1px;
+                    display: block;
+                    width: 100%;
+                    .RoleValue{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .Buttons {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            height: 15%;
+            width: 100%;
+            // border: 0.5px solid lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .Btn{
+                height: 35px;
+                text-transform: none;
+            }
+        }
+    }
+
+    .SignUp-SubContainer:hover {
+        box-shadow: 0 0 5px -2px black;
+    }
+}
